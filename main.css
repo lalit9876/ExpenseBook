@@ -1,0 +1,13 @@
+﻿body
+{
+	font-family: 'Arial Narrow';
+}
+.folder
+{
+	border: thin dotted #000000;
+	font-family: 'Arial Narrow';
+	font-size: x-large;
+	background-color: #808080;
+	display: block;
+	margin-bottom: 5px;
+}
