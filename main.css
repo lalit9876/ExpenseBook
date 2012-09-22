@@ -11,3 +11,20 @@
 	display: block;
 	margin-bottom: 5px;
 }
+
+.status
+{
+    font-family: 'Arial';
+	font-size: medium;
+	display: block;
+	margin-bottom: 5px;
+}
+.connect
+{
+    color:Red;
+}
+.connected
+{
+    color:Green;
+}
+
