@@ -12,6 +12,7 @@
     <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js" type="text/javascript" />
 </head>
 <body>
+<div class="app">
     <div data-role="header" data-position="inline">
         <a href="index.html" data-icon="delete">Exit</a>
         <h1>
@@ -22,5 +23,11 @@
     <a href="book.html?id=Fab2012" data-role="button">Fab 2012</a> 
     <a href="book.html?id=Mar2012" data-role="button">Mar 2012</a> 
     <a href="book.html?id=Apr2012" data-role="button">Apr 2012</a>
+</div>
+
+<script type="text/javascript" src="cordova-2.1.0.js"></script>
+<script type="text/javascript">
+    app.initialize();
+</script>
 </body>
 </html>
